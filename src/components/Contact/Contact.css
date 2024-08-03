@@ -1,0 +1,40 @@
+.contact-h{
+    text-align: center;
+    font-size: 30px;
+    color: var(--red-color);
+    margin-bottom: 100px;
+}
+
+.contact-div{
+    display: flex;
+    /* padding: 0 250px;
+    gap: 132px; */
+    justify-content: space-around;
+}
+
+.contact-list{
+    gap: 32px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.feel-free{
+    font-size: 30px;
+    color: var(--red-color);
+}
+
+.icon{
+    width: 32px;
+    height: 32px;
+    transition: all 400ms ease;
+}
+
+.icon:hover{
+    transform: scale(1.2);
+}
+
+#contact{
+    background: var(--grey-color);
+}

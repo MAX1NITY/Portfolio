@@ -1,0 +1,40 @@
+header{
+    min-height: 629px;
+}
+
+.heading{
+    padding-left: 100px;
+    padding-top: 185px;
+    color: var(--light-black-color);
+}
+
+.heading-h{
+    font-size: 50px;
+    width: 500px;
+}
+
+span{
+    color: var(--red-color);
+}
+
+.more-btn{
+    color: var(--light-black-color);
+    padding: 10px 28px;
+    background: var(--dark-grey-color);
+    margin-top: 90px;
+    font-size: 20px;
+    transition: ease-in-out 0.2s;
+}
+
+.more-btn:hover{
+    color: var(--dark-grey-color);
+    background: var(--light-black-color);
+}
+
+.heading-p1, .heading-p2{
+    font-size: 23px;
+}
+
+.heading-p2{
+    margin-bottom: 40px;
+}

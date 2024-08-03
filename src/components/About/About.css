@@ -1,0 +1,19 @@
+.about-h{
+    text-align: center;
+    font-size: 30px;
+    color: var(--red-color);
+}
+
+.about-p{
+    text-align: left;
+    width: 750px;
+    margin: 0 auto;
+    font-size: 25px;
+    height: 230px;
+    margin-top: 60px;
+    color: var(--light-black-color);
+}
+
+#about{
+    background: var(--grey-color);
+}

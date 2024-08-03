@@ -1,0 +1,35 @@
+.footer-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont{
+    gap: 22px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.link-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    margin-top: 100px;
+}
+
+#footer{
+    background: var(--light-blue-color);
+}
+
+.text{
+    color: var(--light-black-color);
+    transition: all 400ms ease;
+}
+
+.text:hover{
+    transform: scale(1.2);
+}
