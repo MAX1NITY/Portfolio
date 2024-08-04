@@ -9,8 +9,9 @@
 
 #work .projects{
     gap: 91px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: 1fr 1fr 1fr; */
 }
 
 
@@ -24,6 +25,8 @@
 #work .column{
     background: var(--grey-color);
     transition: all 400ms ease;
+    flex-grow: 1;
+    flex-basis: 200;
 }
 
 #work .column:hover{

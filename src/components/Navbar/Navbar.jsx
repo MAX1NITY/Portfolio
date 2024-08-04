@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Navbar.css"
 import Logo from "./Logo.svg"
+import List from "./List.svg"
 
 const Navbar = () => {
   return (
@@ -25,6 +26,9 @@ const Navbar = () => {
       </li>
       
     </ul>
+    <div className='menu-icon'>
+      <img src={List} className='List'></img>
+    </div>
     </nav>
   )
 }

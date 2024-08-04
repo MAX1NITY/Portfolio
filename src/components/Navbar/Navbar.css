@@ -46,3 +46,31 @@ nav ul li a:hover{
     color: var(--red-color);
     
 }
+
+/* Tablet version */
+@media (max-width: 1040px) {
+    nav{
+        max-width: 100%;
+    }
+    nav ul{
+        gap: 35px;
+    }
+}
+
+/* Mobile version */
+@media (max-width: 720px) {
+    nav ul{
+        display: none;
+        
+    }
+    nav{
+        width: 100%;
+    }
+    nav .List{
+        display: block;
+    }
+}
+
+.List{
+    display: none;
+}

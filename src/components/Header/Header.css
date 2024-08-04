@@ -5,12 +5,13 @@ header{
 .heading{
     padding-left: 100px;
     padding-top: 185px;
+    padding-bottom: 50px;
     color: var(--light-black-color);
 }
 
 .heading-h{
     font-size: 50px;
-    width: 500px;
+    width: 100%;
 }
 
 span{
@@ -37,4 +38,30 @@ span{
 
 .heading-p2{
     margin-bottom: 40px;
+}
+
+/* Tablet version */
+/* @media (max-width: 1040px) {
+    .wrapper{
+        max-width: 694px;
+    }
+    .heading{
+        font-size: 10px;
+        max-width: 694px;
+    }
+} */
+
+/* mobile version */
+/* @media (max-width: 720px) {
+    .wrapper{
+        max-width: 300px;
+    }
+    .heading{
+        font-size: 5px;
+        max-width: 300px;
+    }
+} */
+
+header .wrapper{
+    margin: 0;
 }

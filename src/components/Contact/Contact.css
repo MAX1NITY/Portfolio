@@ -7,9 +7,9 @@
 
 .contact-div{
     display: flex;
-    /* padding: 0 250px;
-    gap: 132px; */
+    gap: 100px;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .contact-list{
