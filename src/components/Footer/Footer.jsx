@@ -24,7 +24,7 @@ const Footer = () => {
             </div>
             <div className="cont">
               <a href='https://www.figma.com/design/sKeyLqz7T08DONuI2nXOO0/Portfolio?m=auto&t=0KcVFOfYs0EfCsLX-6'><img src={Figma} className="icon"></img></a>
-              <a href='mailto:mariousangaboma@gmail.com'><img src={Gmail} className="icon"></img></a>
+              <a href='mailto:mariobomausanga@gmail.com'><img src={Gmail} className="icon"></img></a>
               <a href='https://github.com/MAX1NITY'><img src={Github} className="icon"></img></a>
             </div>
           </div>
